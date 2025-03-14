@@ -79,11 +79,6 @@ module.exports = (env) => {
         dts: "./types/auto-imports.d.ts",
         vueTemplate: true,
         injectAtEnd: true,
-        eslintrc: {
-          enabled: true,
-          filepath: "./.eslintrc-auto-import.json",
-          globalsPropValue: true,
-        },
       }),
     ],
   });

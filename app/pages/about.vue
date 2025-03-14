@@ -32,14 +32,9 @@ const updateTask = async () => {
   <Page actionBarHidden="true">
     <ScrollView>
       <StackLayout class="p-4">
-        <Button @tap="$navigateBack" class="bg-black text-white"
-          >bhdbfhsbfhsdbjfsh</Button
+        <Button @tap="$navigateBack" class="bg-black text-white rounded-2xl my-10"
+          >Back</Button
         >
-        <Button
-          @tap="$navigateBack"
-          class="bg-transparent text-black text-lg material-icons"
-          text="&#xe5c4;"
-        />
         <Label text="Task Management" class="text-2xl font-bold mb-4" />
 
         <!-- Add Task Form -->

@@ -5,13 +5,14 @@ const router = useRouter();
 <template>
   <Page actionBarHidden="true">
     <ScrollView>
-      <FlexboxLayout class="bg-black flex-col">
+    <GridLayout class="bg-black" rows="auto,*,*">
         <Image
           src="https://miro.medium.com/v2/resize:fit:1400/1*cuQ5zNN0gVuHfPFKh9smSQ.png"
           class="align-top"
         ></Image>
 
-        <StackLayout class="align-middle">
+
+        <StackLayout class="align-middle" row="1">
           <AbsoluteLayout
             class="h-14 bg-linear-to-t from-sky-500 to-indigo-500"
           />
@@ -28,7 +29,7 @@ const router = useRouter();
               class="rounded-md"
             />
           </GridLayout>
-          <StackLayout class="text-center space-y-1">
+          <StackLayout class="text-center space-y-1" row="2">
             <Label class="text-2xl font-medium text-sky-500"
               >NATIVESCRIPT VUE template</Label
             >
@@ -45,7 +46,7 @@ const router = useRouter();
           </StackLayout>
         </StackLayout>
 
-        <GridLayout class="align-bottom" columns="*,auto,auto,*">
+        <GridLayout class="align-bottom" columns="*,auto,auto,*" row="3">
           <Image
             col="1"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1024px-Vue.js_Logo_2.svg.png?20170919082558"
@@ -58,7 +59,7 @@ const router = useRouter();
             class="align-bottom size-40 ml-2"
           ></Image>
         </GridLayout>
-      </FlexboxLayout>
+      </GridLayout>
     </ScrollView>
   </Page>
 </template>
