@@ -76,3 +76,4 @@ ns run ios
 - Source maps
 - Development and production builds
 - Native platform debugging
+# remintor-ns
