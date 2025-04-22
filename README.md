@@ -34,9 +34,6 @@ Modern mobile app template for NativeScript with Vue 3 and modern development to
 ### 🎨 Styling
 
 - TailwindCSS 4.0
-- Native platform styling capabilities
-- Responsive design support
-- Custom utility classes for mobile-first development
 
 ## 🚀 Getting Started
 
@@ -76,5 +73,3 @@ ns run ios
 - Source maps
 - Development and production builds
 - Native platform debugging
-# remintor-ns
-# remintor-ns
